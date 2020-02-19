@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="resourceId:0x10a000c" android:duration="2500" android:drawable="res/drawable/splash.png" android:fromDegrees="{4:0}" android:toDegrees="{4:1135869952}" android:pivotX="1.5046333E-36%" android:pivotY="1.5046333E-36%" android:startOffset="0" android:repeatCount="-1" android:repeatMode="1" />

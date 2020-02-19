@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:gravity="0x13" android:id="false" android:layout_width="-1" android:layout_height="{2:2130968580}" android:text="Período" android:drawableLeft="res/mipmap-xxhdpi-v4/ic_menu_date.png" />
+	<RadioButton android:layout_gravity="0x11" android:id="false" android:visibility="1" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_alignParentEnd="true" />
+	<LinearLayout android:orientation="0" android:id="false" android:background="ec6628" android:paddingLeft="4dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" android:layout_below="false">
+		<android.support.design.widget.TextInputLayout android:background="f5f5f5" android:padding="4dp" android:layout_width="-1" android:layout_height="{2:2130968580}" android:layout_weight="{4:1065353216}">
+			<EditText android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:gravity="0x13" android:id="false" android:layout_width="-1" android:layout_height="-1" android:hint="Data Início" android:inputType="0x14" />
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout android:background="f5f5f5" android:padding="4dp" android:layout_width="-1" android:layout_height="{2:2130968580}" android:layout_weight="{4:1065353216}">
+			<EditText android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:gravity="0x13" android:id="false" android:layout_width="-1" android:layout_height="-1" android:hint="Data Fim" android:inputType="0x14" />
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+</RelativeLayout>

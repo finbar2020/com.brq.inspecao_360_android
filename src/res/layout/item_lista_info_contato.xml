@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textStyle="0x1" android:id="false" android:paddingTop="16dp" android:layout_width="-1" android:layout_height="-2" android:text="NOME" android:textAllCaps="true" style="resourceId:0x7f12019a" />
+	<RelativeLayout android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="email" android:layout_centerVertical="true" android:layout_toStartOf="false" style="resourceId:0x7f120154" />
+		<ImageView android:id="false" android:padding="4dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxxhdpi-v4/ic_email_gray.png" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

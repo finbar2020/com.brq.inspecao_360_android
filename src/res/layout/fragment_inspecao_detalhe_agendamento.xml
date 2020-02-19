@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:id="false" android:background="f5f5f5" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:layout_gravity="0x11" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:src="res/mipmap-xxxhdpi-v4/ic_calendar_clock_grey600_24dp.png" />
+		<TextView android:layout_width="-1" android:layout_height="-2" android:text="Dados do Agendamento" style="resourceId:0x7f12019b" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<TextView android:layout_gravity="0x10" android:layout_width="-1" android:layout_height="-2" android:text="Data agendamento" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" style="resourceId:0x7f120154" />
+		<TextView android:layout_width="-1" android:layout_height="-2" android:text="Horário" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" style="resourceId:0x7f120154" />
+		<TextView android:layout_width="-1" android:layout_height="-2" android:text="Observação" />
+		<TextView android:id="false" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:maxLines="5" style="resourceId:0x7f120154" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x5" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<TextView android:textStyle="0x1" android:gravity="0x800015" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="Reagendar" style="resourceId:0x7f120151" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:checkableBehavior="2">
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_image_outline.png" android:id="false" android:title="Fotos" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_camera.png" android:id="false" android:title="Camera" />
+	</group>
+</menu>

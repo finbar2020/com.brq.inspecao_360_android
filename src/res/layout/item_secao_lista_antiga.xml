@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<com.brq.inspecao_360_android.common.view.ArcPercentView android:layout_gravity="0x13" android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="16dp" />
+	<TextView android:layout_gravity="0x13" android:id="false" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Seção" android:layout_toEndOf="false" style="resourceId:0x7f12019b" />
+	<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:layout_gravity="0x13" android:id="false" android:paddingRight="16dp" android:layout_width="-2" android:layout_height="-2" android:text="Fotos" android:layout_below="false" android:layout_toEndOf="false" />
+	<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_toEndOf="false">
+		<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="0" />
+		<ImageView android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="16dp" android:src="res/mipmap-xxxhdpi-v4/ic_check.png" android:layout_toEndOf="false" />
+		<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="0" android:layout_toEndOf="false" />
+		<ImageView android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="16dp" android:src="res/mipmap-xxxhdpi-v4/ic_check_bl.png" android:layout_toEndOf="false" />
+		<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="0" android:layout_toEndOf="false" />
+		<ImageView android:id="false" android:padding="2dp" android:layout_width="16dp" android:layout_height="16dp" android:src="res/mipmap-xxxhdpi-v4/ic_error.png" android:layout_toEndOf="false" />
+	</RelativeLayout>
+</RelativeLayout>

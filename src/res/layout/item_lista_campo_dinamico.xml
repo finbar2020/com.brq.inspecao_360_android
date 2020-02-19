@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp">
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="email" android:layout_centerVertical="true" android:paddingEnd="8dp" style="14sp" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="email" android:layout_centerVertical="true" android:layout_toEndOf="false" style="14sp" />
+	</RelativeLayout>
+</LinearLayout>

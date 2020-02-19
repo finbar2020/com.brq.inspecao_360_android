@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:id="false" android:layout_width="36dp" android:layout_height="36dp" android:src="res/mipmap-xxhdpi-v4/ic_telefone_habilitado.png" android:layout_weight="{4:1065353216}" />
+	<ImageView android:id="false" android:layout_width="36dp" android:layout_height="36dp" android:src="res/mipmap-xxxhdpi-v4/ic_email_habilitado.png" android:layout_weight="{4:1065353216}" />
+	<ImageView android:id="false" android:layout_width="36dp" android:layout_height="36dp" android:src="res/mipmap-xxxhdpi-v4/ic_sms_habilitado.png" android:layout_weight="{4:1065353216}" />
+	<ImageView android:id="false" android:layout_width="36dp" android:layout_height="36dp" android:src="res/mipmap-xxxhdpi-v4/ic_local_habilitado.png" android:layout_weight="{4:1065353216}" />
+</LinearLayout>

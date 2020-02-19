@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="resourceId:0x106000b" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-1" android:layout_height="50dp" android:src="res/drawable/logo_insp360.png" />
+	<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="SOBRE O INSPEÇÃO 360º" android:layout_below="false" style="resourceId:0x7f12019b" />
+	<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false" android:layout_centerVertical="true">
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="	O Inspeção 360° é uma solução voltada para Inspeção de Risco e de Sinistro. 
+
+ 	A solução visa agilizar o processo de inspeção de risco, integrando digitalmente todo o processo desde a solicitação de inspeção até a entrega do laudo, podendo ser acionado novamente no processo de sinistro. 
+
+ 	Sua utilização agilizará de forma substancial o tempo utilizado entre a solicitação de um seguro pelo proponente e a geração da apólice. 
+
+ 	Existe ainda o comprometimento sócio ambiental da BRQ, que ao criar essa solução, percebeu o potencial de eliminar o papel de praticamente todo o processo." android:textAlignment="2" />
+	</ScrollView>
+	<TextView android:textSize="12sp" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="© Inspeção 360º - Todos os direitos reservados." android:layout_above="false" android:textAlignment="2" />
+	<TextView android:textSize="12sp" android:id="false" android:padding="16dp" android:layout_width="-1" android:layout_height="{2:2130968580}" android:text="v0.0.0" android:layout_alignParentBottom="true" android:textAlignment="6" android:layout_alignParentEnd="true" />
+</RelativeLayout>

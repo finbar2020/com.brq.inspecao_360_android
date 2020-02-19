@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<android.support.v7.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp">
+			<RelativeLayout android:padding="8dp" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="081a4" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Habilitar rastreamento" android:layout_alignParentTop="true" android:layout_toStartOf="false" />
+				<TextView android:textSize="14sp" android:textColor="9e9e9e" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7dp" android:text="Deseja compartilhar as suas informações de geolocalização com o Inspeção 360˚?" android:layout_below="false" android:layout_toStartOf="false" />
+				<Switch android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="8dp" android:textOn="Sim" android:textOff="Não" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+			</RelativeLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp">
+			<RelativeLayout android:padding="8dp" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="081a4" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Habilitar modo de captura rápida" android:layout_alignParentTop="true" android:layout_toStartOf="false" />
+				<TextView android:textSize="14sp" android:textColor="9e9e9e" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7dp" android:text="Deseja habilitar o modo de captura rápida? Ao habilitá-lo, as fotos poderão ser capturadas com mais velocidade, mas somente poderão ser editadas ou excluídas após terem sido selecionadas na galeria." android:layout_below="false" android:layout_toStartOf="false" />
+				<Switch android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="8dp" android:textOn="Sim" android:textOff="Não" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+			</RelativeLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp">
+			<RelativeLayout android:padding="8dp" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="081a4" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Permitir envio de dados apenas no Wi-Fi" android:layout_alignParentTop="true" android:layout_toStartOf="false" />
+				<TextView android:textSize="14sp" android:textColor="9e9e9e" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7dp" android:text="Deseja restringir o envio de dados apenas via Wi-Fi? Ao ativar essa função, os frustros e os checklists só poderão ser enviados se você estiver conectado ao Wi-Fi." android:layout_below="false" android:layout_toStartOf="false" />
+				<Switch android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="8dp" android:textOn="Sim" android:textOff="Não" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+			</RelativeLayout>
+		</android.support.v7.widget.CardView>
+	</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

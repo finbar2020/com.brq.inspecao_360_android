@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Ramo" />
+		<Spinner android:id="false" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Produto Comercial" />
+		<Spinner android:id="false" android:paddingBottom="4dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Enquadramento" />
+		<Spinner android:id="false" android:paddingBottom="4dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Enquadramento" />
+		<Spinner android:id="false" android:paddingBottom="4dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Enquadramento" />
+		<Spinner android:id="false" android:paddingBottom="4dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Classe Construção" />
+		<Spinner android:id="false" android:paddingBottom="4dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

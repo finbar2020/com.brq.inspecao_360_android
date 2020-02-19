@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="false" android:visible="false" android:orderInCategory="100" android:title="Aceitar" app:showAsAction="0x6" />
+	<item android:id="false" android:visible="false" android:title="Recusar" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Enviar Checklist para a Web" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Frustrar" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Devolver" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Reenviar" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Finalizar Checklist" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Alterar Enquadramento" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Alterar Endereço" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:orderInCategory="100" android:title="Iniciar" app:showAsAction="0x6" />
+	<item android:id="false" android:visible="false" android:orderInCategory="100" android:title="Parar" app:showAsAction="0x6" />
+</menu>

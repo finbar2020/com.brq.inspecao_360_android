@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="resourceId:0x102000f">
+		<shape android:shape="3" android:innerRadiusRatio="{4:1086324736}" android:thicknessRatio="{4:1101004800}" android:useLevel="true">
+			<gradient android:startColor="999999" android:endColor="999999" android:type="2" android:centerColor="999999" />
+		</shape>
+	</item>
+	<item android:id="resourceId:0x102000d">
+		<rotate android:fromDegrees="{4:1132920832}" android:toDegrees="{4:1132920832}" android:pivotX="1.5046333E-36%" android:pivotY="1.5046333E-36%">
+			<shape android:shape="3" android:innerRadiusRatio="{4:1086324736}" android:thicknessRatio="{4:1101004800}" android:useLevel="true">
+				<rotate android:fromDegrees="{4:0}" android:toDegrees="{4:1135869952}" android:pivotX="1.5046333E-36%" android:pivotY="1.5046333E-36%" />
+				<gradient android:startColor="0ff0" android:endColor="0ff0" android:type="2" android:centerColor="0ff0" />
+			</shape>
+		</rotate>
+	</item>
+</layer-list>

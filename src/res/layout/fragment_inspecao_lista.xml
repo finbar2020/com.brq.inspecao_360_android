@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+	<android.support.v4.widget.SwipeRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<android.support.v4.widget.SwipeRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<android.support.v7.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	</android.support.v4.widget.SwipeRefreshLayout>
+	<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="99000" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="0 Itens" android:layout_alignParentBottom="true" style="resourceId:0x7f120199" />
+</RelativeLayout>

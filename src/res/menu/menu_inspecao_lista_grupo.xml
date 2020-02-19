@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="false" android:visible="false" android:title="Recusar" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Aceitar" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Agendar" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Devolver" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Frustrar" app:showAsAction="0x4" />
+	<item android:id="false" android:visible="false" android:title="Assinatura" app:showAsAction="0x4" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="resourceId:0x106000b" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:padding="16dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/logo_insp360.png" android:layout_centerInParent="true" />
+	<ProgressBar android:id="false" android:layout_width="64dp" android:layout_height="64dp" android:layout_below="false" android:layout_centerHorizontal="true" />
+	<TextView android:gravity="0x11" android:id="false" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Aguarde" android:layout_above="false" android:layout_below="false" />
+	<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault" android:textColor="resourceId:0x1060000" android:gravity="0x11" android:id="false" android:padding="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:textColor="ffffff" android:gravity="0x800013" android:id="false" android:background="res/drawable/item_grid_label_filtro.xml" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" />
+</LinearLayout>

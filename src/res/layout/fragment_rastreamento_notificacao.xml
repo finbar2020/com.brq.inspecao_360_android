@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-2" style="@android:style/TextAppearance.StatusBar.EventContent">
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:tag="0" android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxxhdpi-v4/ic_stop.png" android:layout_weight="{4:1065353216}" />
+		<ImageView android:tag="1" android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxxhdpi-v4/ic_pause.png" android:layout_weight="{4:1065353216}" />
+		<ImageView android:tag="2" android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxxhdpi-v4/ic_play.png" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+		<TextView android:id="false" android:padding="4dp" android:layout_width="-1" android:layout_height="-2" android:text="Rastreamento" style="@android:style/TextAppearance.StatusBar.Title" />
+		<TextView android:id="false" android:padding="4dp" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+</RelativeLayout>

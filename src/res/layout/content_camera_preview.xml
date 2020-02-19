@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+	<ImageView android:id="false" android:background="resourceId:0x106000c" android:layout_width="-1" android:layout_height="-1" android:scaleType="3" android:adjustViewBounds="true" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<TextView android:gravity="0x13" android:id="false" android:padding="8dp" android:layout_width="-1" android:layout_height="{2:16843499}" android:text="Adicionar descrição" android:maxLines="2" android:drawableLeft="res/drawable-xxxhdpi-v4/comment_text.png" android:drawablePadding="8dp" android:layout_alignParentBottom="true" />
+	</LinearLayout>
+	<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

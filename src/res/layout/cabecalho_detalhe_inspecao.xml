@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false">
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<android.support.v7.widget.AppCompatEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:hint="Comapanhia" style="resourceId:0x7f120155" />
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<android.support.v7.widget.AppCompatEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:hint="Sucursal" style="resourceId:0x7f120155" />
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false">
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<android.support.v7.widget.AppCompatEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:hint="Ramo" style="resourceId:0x7f120155" />
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<android.support.v7.widget.AppCompatEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:hint="Produto" style="resourceId:0x7f120155" />
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false">
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<android.support.v7.widget.AppCompatEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:hint="Nº Solicitação" style="resourceId:0x7f120155" />
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<android.support.v7.widget.AppCompatEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:hint="Data Solicitação" style="resourceId:0x7f120155" />
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false">
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<android.support.v7.widget.AppCompatEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:hint="Data agendamento" style="resourceId:0x7f120155" />
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<android.support.v7.widget.AppCompatEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:hint="Período" style="resourceId:0x7f120155" />
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+</LinearLayout>

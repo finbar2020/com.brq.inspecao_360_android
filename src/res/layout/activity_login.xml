@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x17" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/logo_insp360.png" android:contentDescription="Inspeção 360" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="55dp" android:layout_marginBottom="-5dp">
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="E-mail" style="resourceId:0x7f120222" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="-2dp" android:singleLine="true" style="resourceId:0x7f12021f" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="55dp">
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="Senha" style="resourceId:0x7f120221" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="-2dp" android:inputType="0x81" style="resourceId:0x7f12021e" />
+		</LinearLayout>
+		<CheckBox android:layout_gravity="0x800005" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="1dp" android:text="Remember login" android:layout_weight="{4:1061997773}" />
+		<LinearLayout android:orientation="1" android:paddingTop="20dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1067869798}">
+			<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Entrar" style="resourceId:0x7f1200c7" />
+			<ProgressBar android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="resourceId:0x7f12021d" />
+		</LinearLayout>
+		<TextView android:textColor="194bb" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Esqueci minha senha" style="resourceId:0x7f120223" />
+	</LinearLayout>
+	<TextView android:textSize="12sp" android:id="false" android:padding="16dp" android:layout_width="-1" android:layout_height="-2" android:text="v0.0.0" android:layout_alignParentBottom="true" android:textAlignment="6" android:layout_alignParentEnd="true" />
+</RelativeLayout>

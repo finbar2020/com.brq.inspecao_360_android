@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:labelFor="false">
+		<EditText android:id="false" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:hint="Data agendamento" style="resourceId:0x7f120154" />
+	</android.support.design.widget.TextInputLayout>
+	<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" style="@android:style/Widget.Holo.Light.Spinner" />
+	<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:labelFor="false">
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Observação" android:maxLines="10" />
+	</android.support.design.widget.TextInputLayout>
+</LinearLayout>

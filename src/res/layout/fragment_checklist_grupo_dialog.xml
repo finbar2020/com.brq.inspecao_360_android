@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textStyle="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Selecione o grupo" style="resourceId:0x7f12019b" />
+	<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" style="@android:style/Widget.Holo.Light.Spinner" />
+	<LinearLayout android:gravity="0x800005" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Cancelar" style="resourceId:0x7f120150" />
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Confirmar" style="resourceId:0x7f120150" />
+	</LinearLayout>
+</RelativeLayout>

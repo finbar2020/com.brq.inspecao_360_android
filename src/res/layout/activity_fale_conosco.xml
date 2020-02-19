@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<android.support.design.widget.AppBarLayout android:theme="resourceId:0x7f120007" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="235dp">
+		<android.support.design.widget.CollapsingToolbarLayout android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1" app:contentScrim="{2:2130968761}" app:layout_scrollFlags="0x3">
+			<com.brq.inspecao_360_android.camera.SquareImageView android:layout_gravity="0x5" android:id="false" android:fitsSystemWindows="true" android:layout_width="200dp" android:layout_height="200dp" android:src="res/drawable/fale_conosco.png" android:adjustViewBounds="true" app:layout_collapseMode="2" app:layout_collapseParallaxMultiplier="{4:1058642330}" app:layout_scrollFlags="0x1" />
+			<android.support.v7.widget.Toolbar android:id="false" android:layout_width="-1" android:layout_height="{2:2130968580}" android:layout_marginBottom="235dp" app:layout_collapseMode="2" app:popupTheme="resourceId:0x7f120009" />
+		</android.support.design.widget.CollapsingToolbarLayout>
+	</android.support.design.widget.AppBarLayout>
+	<include layout="res/layout/content_fale_conosco.xml" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.mapbox.mapboxsdk.maps.widgets.CompassView android:id="false" android:layout_width="-2" android:layout_height="-2" android:contentDescription="Map compass. Activate to reset the map rotation to North." />
+	<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:contentDescription="resourceId:0x0" />
+	<ImageView android:id="false" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:adjustViewBounds="true" android:contentDescription="Attribution icon. Activate to show attribution dialog." />
+</merge>

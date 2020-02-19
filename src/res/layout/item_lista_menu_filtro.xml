@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="resourceId:0x106000c" android:gravity="0x13" android:id="false" android:paddingLeft="16dp" android:paddingTop="0dp" android:layout_width="-1" android:layout_height="{2:2130968580}" android:layout_marginLeft="8dp" android:layout_marginTop="0dp" android:minHeight="{2:16843655}" android:text="1123123" android:drawableRight="{2:16843290}" android:textAllCaps="true" />

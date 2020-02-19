@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:id="false" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="16dp" android:foreground="{2:16843534}" android:layout_marginStart="4dp" android:layout_marginEnd="4dp" card_view:cardCornerRadius="5dp" card_view:cardElevation="6dp">
+	<LinearLayout android:orientation="1" android:background="resourceId:0x0" android:paddingLeft="4dp" android:paddingTop="8dp" android:paddingRight="4dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+			<View android:id="false" android:background="res/drawable/card_linha_status.xml" android:layout_width="4dp" android:layout_height="-1" android:layout_alignBottom="false" />
+			<RelativeLayout android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:textStyle="0x1" android:id="false" android:paddingLeft="8dp" android:layout_width="-2" android:layout_height="-2" android:text="0000" />
+				<LinearLayout android:gravity="0x5" android:orientation="1" android:id="false" android:layout_width="32dp" android:layout_height="-2" android:layout_alignBottom="false" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+					<ImageView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxxhdpi-v4/ic_subramo_default.png" android:scaleType="3" />
+					<ProgressBar android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:indeterminate="true" />
+				</LinearLayout>
+				<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:id="false" android:paddingLeft="8dp" android:layout_width="-2" android:layout_height="-2" android:text="PRESTADORA BRQ PRESTADORA BRQ PRESTADORA BRQ" android:layout_below="false" android:textAllCaps="true" android:paddingEnd="8dp" android:layout_toStartOf="false" android:layout_alignParentStart="true" />
+				<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:id="false" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Luis Felipe Oliveira" android:layout_below="false" android:textAllCaps="true" android:paddingEnd="8dp" android:layout_toStartOf="false" />
+				<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:id="false" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Desc. Status" android:layout_below="false" android:textAllCaps="true" android:paddingEnd="8dp" android:layout_toStartOf="false" />
+			</RelativeLayout>
+		</LinearLayout>
+		<View android:id="false" android:background="resourceId:0x1060000" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+		<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:id="false" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="4dp" android:text="Desc. Produto" android:textAllCaps="true" />
+		<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:id="false" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp" android:text="Endereço" />
+		<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:gravity="0x10" android:id="false" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp" android:text="hora" />
+		<android.support.v7.widget.RecyclerView android:id="false" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp" />
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp">
+			<View android:id="false" android:background="resourceId:0x1060000" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp">
+				<Button android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="40dp" android:text="RECUSAR" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1200c9" />
+				<Button android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="40dp" android:text="ACEITAR" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1200c7" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<Button android:id="false" android:tag="tag_btn_acao_inspecao" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Recusar" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1200c8" />
+		<Button android:id="false" android:tag="tag_btn_acao_inspecao" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Aceitar" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1200c7" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<Button android:id="false" android:tag="tag_btn_acao_inspecao" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Frustrar" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1200c8" />
+		<Button android:id="false" android:tag="tag_btn_acao_inspecao" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Iniciar" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1200c7" />
+	</LinearLayout>
+</LinearLayout>

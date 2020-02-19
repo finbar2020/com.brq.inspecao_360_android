@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<include android:layout_width="-1" android:layout_height="-1" layout="res/layout/app_bar_checklist_grupo.xml" />
+</android.support.v4.widget.DrawerLayout>

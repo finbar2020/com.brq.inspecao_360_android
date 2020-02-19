@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:labelFor="false">
+	<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " style="resourceId:0x7f120154" />
+</android.support.design.widget.TextInputLayout>

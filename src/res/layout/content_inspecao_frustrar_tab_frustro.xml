@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:padding="8dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2" android:text="Motivo" />
+		<Spinner android:id="false" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2" android:text="Descrição" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxLength="2000" android:inputType="0x20001" />
+	</LinearLayout>
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

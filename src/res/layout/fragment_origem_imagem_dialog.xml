@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="150dp">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="70dp" android:layout_height="70dp" android:src="res/mipmap-xxxhdpi-v4/ic_gallery.png" />
+			<TextView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Galeria" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="70dp" android:layout_height="70dp" android:src="res/mipmap-xxhdpi-v4/ic_camera_dialog.png" />
+			<TextView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Câmera" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

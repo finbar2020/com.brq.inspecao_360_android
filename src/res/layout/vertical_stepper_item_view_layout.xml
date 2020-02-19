@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x1" android:orientation="1" android:layout_width="-2" android:layout_height="-1" android:layout_marginStart="24dp" android:layout_marginEnd="12dp">
+		<FrameLayout android:layout_width="24dp" android:layout_height="24dp">
+			<moe.feng.common.stepperview.internal.ClipOvalFrameLayout android:id="false" android:background="res/drawable/stepper_point_background.xml" android:layout_width="24dp" android:layout_height="24dp">
+				<View android:id="false" android:background="9e9e9e" android:layout_width="-1" android:layout_height="-1" />
+				<TextView android:textSize="12sp" android:textColor="resourceId:0x106000b" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:maxLength="2" />
+				<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxxhdpi-v4/ic_done_white_16dp.png" android:alpha="{4:0}" android:importantForAccessibility="2" />
+			</moe.feng.common.stepperview.internal.ClipOvalFrameLayout>
+			<ImageView android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xxxhdpi-v4/ic_warning_black_24dp.png" android:tint="f44336" android:alpha="{4:0}" android:importantForAccessibility="2" />
+		</FrameLayout>
+		<View android:id="false" android:background="bdbdbd" android:layout_width="1dp" android:layout_height="0dp" android:layout_marginTop="8dp" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:animateLayoutChanges="true" android:layout_marginEnd="24dp">
+		<TextView android:textAppearance="resourceId:0x7f120139" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" />
+		<TextView android:textAppearance="resourceId:0x7f120138" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<View android:id="false" android:layout_width="-1" android:layout_height="28dp" />
+	</LinearLayout>
+</LinearLayout>

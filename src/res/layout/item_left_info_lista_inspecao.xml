@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="res/drawable/card_linha_status.xml" android:layout_width="8dp" android:layout_height="-1" />
+	<LinearLayout android:orientation="1" android:id="false" android:background="resourceId:0x1060000" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:orientation="1" android:id="false" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:visibility="0" android:layout_width="110dp" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:textSize="12sp" android:textStyle="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="12345" android:textAllCaps="true" />
+			<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:textSize="12sp" android:textStyle="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:textAllCaps="true" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="8dp" android:layout_marginRight="0dp" android:layout_marginBottom="8dp">
+			<ImageView android:id="false" android:layout_width="24dp" android:layout_height="24dp" />
+			<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:textSize="12sp" android:textStyle="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" android:textAllCaps="true" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="+ 55 21 0000 0000" android:layout_toStartOf="false" style="resourceId:0x7f120154" />
+	<ImageView android:id="false" android:padding="4dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxxhdpi-v4/ic_phone_gray.png" android:layout_centerVertical="true" android:layout_toStartOf="false" />
+	<ImageView android:id="false" android:padding="4dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxxhdpi-v4/ic_message_text_gray.png" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+	<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Tipo telefone" android:layout_below="false" android:layout_toStartOf="false" style="resourceId:0x7f120154" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<android.support.design.widget.AppBarLayout android:theme="resourceId:0x7f120007" android:layout_width="-1" android:layout_height="-2">
+		<android.support.v7.widget.Toolbar android:id="false" android:background="04a5f" android:layout_width="-1" android:layout_height="{2:2130968580}" app:popupTheme="resourceId:0x7f120009" />
+	</android.support.design.widget.AppBarLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+		<ScrollView android:id="false" android:background="f5f5f5" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1065353216}">
+				<RelativeLayout android:background="res/drawable/fundo_topo_brq.xml" android:layout_width="-1" android:layout_height="-1">
+					<com.brq.inspecao_360_android.presentantion.view.custom.RoundedImageView android:id="false" android:background="res/drawable/foto_perfil_bg.xml" android:layout_width="130dp" android:layout_height="130dp" android:layout_marginTop="40dp" android:src="res/mipmap-hdpi-v4/sem_foto.png" android:scaleType="1" android:cropToPadding="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+					<TextView android:textAppearance="{2:16842817}" android:gravity="0x11" android:id="false" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="" android:layout_below="false" />
+					<ImageView android:id="false" android:paddingTop="5dp" android:paddingRight="5dp" android:visibility="1" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:src="res/drawable/logo_pequena.png" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+				</RelativeLayout>
+				<LinearLayout android:orientation="1" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+					<TextView android:textSize="15sp" android:textColor="392c0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="DADOS PESSOAIS" style="resourceId:0x7f12019b" />
+					<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" app:hintTextAppearance="@android:style/TextAppearance.Small">
+						<EditText android:textSize="15sp" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:hint="Nome" android:ems="10" android:inputType="0x61" />
+					</android.support.design.widget.TextInputLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+					<TextView android:textSize="15sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="ALTERAR SENHA" style="resourceId:0x7f12019b" />
+					<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+						<EditText android:textSize="15sp" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:hint="Senha atual" android:ems="10" android:inputType="0x81" style="resourceId:0x7f120012" />
+					</android.support.design.widget.TextInputLayout>
+					<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" app:hintTextAppearance="@android:style/TextAppearance.Small">
+						<EditText android:textSize="15sp" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:hint="Nova senha" android:ems="10" android:inputType="0xe1" style="resourceId:0x7f120012" />
+					</android.support.design.widget.TextInputLayout>
+					<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" app:hintTextAppearance="@android:style/TextAppearance.Small">
+						<EditText android:textSize="15sp" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:hint="Confirmar senha" android:ems="10" android:inputType="0xe1" style="resourceId:0x7f120012" />
+					</android.support.design.widget.TextInputLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

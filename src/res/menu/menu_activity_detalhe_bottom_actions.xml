@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:checkableBehavior="2">
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_info.png" android:id="false" android:title="Informações" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_clipboard_text.png" android:id="false" android:title="Checklist" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_image_outline.png" android:id="false" android:title="Fotos" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_calendar_clock.png" android:id="false" android:title="Agendamentos" />
+	</group>
+</menu>

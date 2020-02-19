@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:id="false" android:layout_width="-1" android:layout_height="400dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="16dp">
+				<TextView android:textSize="56sp" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="00" />
+				<LinearLayout android:orientation="1" android:padding="8dp" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:id="false" android:padding="4dp" android:layout_width="-1" android:layout_height="-2" android:text="seg" />
+					<TextView android:id="false" android:padding="4dp" android:layout_width="-1" android:layout_height="-2" android:text="" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-2">
+				<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2">
+					<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Agendado por" />
+				</android.support.design.widget.TextInputLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-2">
+				<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:text=" ">
+					<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:hint="Agendado em" />
+				</android.support.design.widget.TextInputLayout>
+			</LinearLayout>
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Observação" />
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

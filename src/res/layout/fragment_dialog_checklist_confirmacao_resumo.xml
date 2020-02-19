@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Ao enviar, o checklist será sincronizado com os nossos servidores e estará disponível para edição no portal web." />
+			<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Ao finalizar, o checklist será enviado a %s e suas informações não poderão ser alteradas.
+
+Para enviar as informação para o portal web sem finalizar, utilize a opção Enviar Checklist para a Web." />
+			<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Ao finalizar, o checklist será enviado a %s e suas informações não poderão ser alteradas." />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Existe uma transmissão de checklist em andamento, deseja interrompe-la?" />
+			<TextView android:textStyle="0x1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Resumo:" />
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp">
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1066192077}">
+					<RelativeLayout android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2">
+						<com.brq.inspecao_360_android.common.view.CircularProgressBar android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp" app:progress="35" app:progressBarThickness="2dp" app:progressbarColor="ec6628" />
+						<TextView android:textSize="18sp" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="100%" android:layout_alignLeft="false" android:layout_alignTop="false" android:layout_alignRight="false" android:layout_alignBottom="false" />
+					</RelativeLayout>
+					<TextView android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="Completo" android:layout_below="false" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1073741824}">
+					<View android:background="cccccc" android:layout_width="1dp" android:layout_height="-2" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1066192077}">
+					<RelativeLayout android:gravity="0x11" android:id="false" android:layout_width="120dp" android:layout_height="60dp" android:layout_margin="10dp">
+						<TextView android:textSize="48sp" android:textStyle="0x1" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="99" android:layout_centerInParent="true" />
+					</RelativeLayout>
+					<TextView android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="Foto(s)" android:layout_below="false" />
+				</LinearLayout>
+			</LinearLayout>
+			<TextView android:textStyle="0x1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Erros encontrados:" />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• Algumas imagens não foram encontradas:" />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• É necessário que o checklist contenha imagens capturadas pelo aplicativo para que ele possa ser enviado." />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• É necessário que o checklist contenha imagens capturadas pelo aplicativo para que ele possa ser finalizado." />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• É necessário que todas as perguntas obrigatórias do checklist estejam respondidas para que ele possa ser finalizado." />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• É necessário realizar o desenho do croqui para finalizar o checklist." />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• É necessário colher a assinatura do inspetor para finalizar o checklist." />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• É necessário colher a assinatura do responsável por acompanhar a inspeção para finalizar o checklist." />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• É necessário colher a assinatura do inspetor e do responsável por acompanhar a inspeção para finalizar o checklist." />
+			<View android:id="false" android:background="res/drawable/card_linha_status.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+			<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-1">
+				<View android:background="cccccc" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+				<Switch android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="Desejo informar a necessidade de criação de nova inspeção para este local." />
+				<android.support.design.widget.TextInputEditText android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:hint="Observação" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

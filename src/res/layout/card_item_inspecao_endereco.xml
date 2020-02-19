@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" card_view:cardCornerRadius="0dp" card_view:cardElevation="2dp" card_view:contentPaddingBottom="16dp" card_view:contentPaddingLeft="16dp" card_view:contentPaddingRight="16dp" card_view:contentPaddingTop="16dp">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="CEP" style="resourceId:0x7f120154" />
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Logradouro" style="resourceId:0x7f120154" />
+		</android.support.design.widget.TextInputLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Número" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Complemento" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Bairro" style="resourceId:0x7f120154" />
+		</android.support.design.widget.TextInputLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Estado" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Município" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+	</LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:id="false" android:background="f5f5f5" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:layout_gravity="0x11" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:src="res/mipmap-xxxhdpi-v4/ic_map_marker_grey600_24dp.png" />
+		<TextView android:layout_width="-1" android:layout_height="-2" android:text="Dados do Local de Risco" style="resourceId:0x7f12019b" />
+	</LinearLayout>
+	<RelativeLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<android.support.design.widget.CoordinatorLayout android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+				<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="200dp" />
+				<TextView android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Logradouro" />
+				<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="1123123" style="resourceId:0x7f120154" />
+			</LinearLayout>
+			<android.support.design.widget.FloatingActionButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:src="res/mipmap-xxxhdpi-v4/ic_navigation_white_24dp.png" app:layout_anchor="false" app:layout_anchorGravity="0x800055" />
+		</android.support.design.widget.CoordinatorLayout>
+	</RelativeLayout>
+</RelativeLayout>

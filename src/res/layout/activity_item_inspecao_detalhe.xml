@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<include layout="res/layout/error.xml" />
+	<include android:id="false" layout="res/layout/content_inspecao_detalhe.xml" />
+	<android.support.design.widget.AppBarLayout android:theme="resourceId:0x7f120007" android:layout_width="-1" android:layout_height="-2">
+		<android.support.v7.widget.Toolbar android:id="false" android:background="{2:2130968761}" android:layout_width="-1" android:layout_height="{2:2130968580}" app:layout_collapseMode="1" app:popupTheme="resourceId:0x7f120009" />
+	</android.support.design.widget.AppBarLayout>
+</android.support.design.widget.CoordinatorLayout>

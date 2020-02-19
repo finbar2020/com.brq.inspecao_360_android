@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="165" android:versionName="2.2.4" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.brq.inspecao_360_android" platformBuildVersionCode="28" platformBuildVersionName="9">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="28" />
+	<permission android:name="com.plotter.permission.MAPS_RECEIVE" android:protectionLevel="0x2" />
+	<uses-permission android:name="com.plotter.permission.MAPS_RECEIVE" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="com.brq.inspecao_360_android.C2D_MESSAGE" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-feature android:name="android.hardware.telephony" android:required="false" />
+	<uses-feature android:glEsVersion="0x20000" android:required="true" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+	<uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+	<uses-feature android:name="android.hardware.wifi" android:required="false" />
+	<uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+	<uses-feature android:name="android.hardware.camera.front" android:required="false" />
+	<uses-feature android:name="android.hardware.microphone" android:required="false" />
+	<application android:theme="resourceId:0x7f120006" android:label="Inspeção 360" android:icon="res/mipmap-xxhdpi-v4/ic_launcher.png" android:name="com.brq.inspecao_360_android.configuration.di.App" android:allowBackup="true" android:largeHeap="true" android:supportsRtl="true" android:usesCleartextTraffic="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+		<service android:name="com.brq.inspecao_360_android.common.service.intent.AtualizarListaInspecaoIntentService" android:exported="false" />
+		<service android:name="com.brq.inspecao_360_android.common.service.intent.AtualizarItemInspecaoIntentService" android:exported="false" />
+		<service android:name="com.brq.inspecao_360_android.service.intent.FrustroIntentService" android:exported="false" />
+		<service android:name="com.brq.inspecao_360_android.inspecao.service.DesfazerIntentService" android:exported="false" />
+		<service android:name="com.brq.inspecao_360_android.service.intent.ChecklistIntentService" android:exported="false" android:windowSoftInputMode="0x10" android:stopWithTask="false" android:externalService="false" />
+		<service android:name="com.brq.inspecao_360_android.common.service.RastreamentoService" android:exported="false" android:stopWithTask="false" />
+		<service android:name="com.brq.inspecao_360_android.common.service.LogBackupService" android:exported="false" android:stopWithTask="false" />
+		<service android:name="com.brq.inspecao_360_android.common.service.DownloadMapsService" android:exported="false" android:stopWithTask="false" />
+		<service android:name="com.brq.inspecao_360_android.common.service.DownloadAnexoService" android:exported="false" android:stopWithTask="false" />
+		<service android:name="com.brq.inspecao_360_android.common.service.intent.RegistrationIntentService" android:exported="false" />
+		<service android:name="com.brq.inspecao_360_android.common.service.intent.PerfilIntentService" android:exported="false" />
+		<service android:name="com.brq.inspecao_360_android.service.DownloadIntentService" android:exported="false" />
+		<service android:name="com.brq.inspecao_360_android.service.intent.ControleRemotoIntentService" android:exported="false" android:stopWithTask="false" />
+		<service android:name="com.brq.inspecao_360_android.geolocalizacao.LocationUpdatesService" android:exported="false" android:stopWithTask="false" />
+		<receiver android:name="com.brq.inspecao_360_android.geolocalizacao.service.LocationTracker">
+			<intent-filter>
+				<action android:name="android.location.PROVIDERS_CHANGED" />
+			</intent-filter>
+		</receiver>
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAkDw1tz95oQwJUk2awctY2SacceJfYL1Y" />
+		<activity android:theme="resourceId:0x7f120008" android:name="com.brq.inspecao_360_android.ui.activity.SplashScreenActivity" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="resourceId:0x7f120008" android:name="com.brq.inspecao_360_android.ui.activity.LoginActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Inspeções" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoListaActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Inspeções" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoListaGrupoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Perfil" android:name="com.brq.inspecao_360_android.ui.activity.PerfilUsuarioActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:theme="resourceId:0x7f1200d0" android:label="Perfil" android:name="com.brq.inspecao_360_android.ui.activity.PerfilFotoUsuarioPreviewActivity" android:configChanges="0x4a0" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Frustrar" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoFrustrarActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:name="com.brq.inspecao_360_android.ui.activity.SobreActivity" android:screenOrientation="portrait" android:parentActivityName="com.brq.inspecao_360_android.ui.activity.ItemInspecaoListaActivity" />
+		<activity android:theme="resourceId:0x7f120008" android:label="" android:name="com.brq.inspecao_360_android.ui.activity.CameraActivity" android:screenOrientation="portrait" android:configChanges="0xa0" />
+		<activity android:theme="resourceId:0x7f120008" android:label="" android:name="com.brq.inspecao_360_android.ui.activity.CameraV2Activity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f120008" android:label="" android:name="com.brq.inspecao_360_android.ui.activity.CameraPreviewActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f120008" android:label="" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoDetalheActivity" android:screenOrientation="portrait" android:parentActivityName="com.brq.inspecao_360_android.ui.activity.ItemInspecaoListaActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.brq.inspecao_360_android.ui.activity.ItemInspecaoListaActivity" />
+		</activity>
+		<activity android:theme="resourceId:0x7f120008" android:label="" android:name="com.brq.inspecao_360_android.ui.activity.ChecklistActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x12" android:parentActivityName="com.brq.inspecao_360_android.ui.activity.ItemInspecaoListaActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.brq.inspecao_360_android.ui.activity.ItemInspecaoListaActivity" />
+		</activity>
+		<activity android:theme="resourceId:0x7f120008" android:label="" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoAgendarActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Enquadramento" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoEnquadrarActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Croqui" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoCroquiActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Assinatura" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoAssinaturaActivity" android:screenOrientation="landscape" android:configChanges="0xa0" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Endereço" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoEnderecoActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f120008" android:label="" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoFotosActivity" android:screenOrientation="portrait" />
+		<receiver android:name="com.brq.inspecao_360_android.common.notification.TaximetroBroadCastReceiver" />
+		<service android:name="com.brq.inspecao_360_android.common.service.InspecaoInstanceIDListenerService" android:exported="false">
+			<intent-filter>
+				<action android:name="com.google.firebase.MESSAGING_EVENT" />
+			</intent-filter>
+		</service>
+		<meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="res/drawable/ic_top.png" />
+		<meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="resourceId:0x106000b" />
+		<meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="8001" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Recusa" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoRecusaActivity" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Devolver" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoDevolverActivity" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Fale Conosco" android:name="com.brq.inspecao_360_android.ui.activity.FaleConoscoActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f120008" android:label="Configurações" android:name="com.brq.inspecao_360_android.ui.activity.ConfiguracaoActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f120008" android:name="com.brq.inspecao_360_android.ui.activity.ItemInspecaoFinalizarActivity" android:screenOrientation="portrait" />
+		<meta-data android:name="io.fabric.ApiKey" android:value="f6002a53530ad5c0a21784f750355a8d54be6858" />
+		<service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+			<intent-filter android:priority="-500">
+				<action android:name="com.google.firebase.MESSAGING_EVENT" />
+			</intent-filter>
+		</service>
+		<service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
+			<meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar" />
+			<meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar" />
+		</service>
+		<receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" />
+		<receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true" android:exported="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+		<service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
+		<service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false" />
+		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+			</intent-filter>
+		</receiver>
+		<service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+			<intent-filter android:priority="-500">
+				<action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+			</intent-filter>
+		</service>
+		<provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.brq.inspecao_360_android.firebaseinitprovider" android:initOrder="100" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+		<meta-data android:name="com.google.android.gms.version" android:value="12451000" />
+		<provider android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider" android:exported="false" android:authorities="com.brq.inspecao_360_android.mapboxtelemetryinitprovider" android:initOrder="100" />
+		<service android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE" />
+		<provider android:name="com.crashlytics.android.CrashlyticsInitProvider" android:exported="false" android:authorities="com.brq.inspecao_360_android.crashlyticsinitprovider" android:initOrder="90" />
+	</application>
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:id="false" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="16dp" android:foreground="{2:16843534}" android:layout_marginStart="4dp" android:layout_marginEnd="4dp" android:elevation="2dp" card_view:cardCornerRadius="5dp" card_view:cardElevation="6dp">
+	<LinearLayout android:orientation="1" android:background="resourceId:0x0" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="50sp" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:text="+555" android:layout_centerInParent="true" android:layout_alignParentStart="true" />
+			<View android:id="false" android:background="resourceId:0x1060000" android:layout_width="4194304unknown unit:0x31" android:layout_height="-1" android:layout_marginBottom="-14dp" android:layout_alignBottom="false" android:layout_alignParentTop="true" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_toEndOf="false" />
+			<LinearLayout android:gravity="0x10" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true" android:layout_toStartOf="false" android:layout_toEndOf="false">
+				<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:textStyle="0x1" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:text="BAA0000G" android:layout_weight="{4:1065353216}" />
+				<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="BRQ SEGUROS " android:layout_weight="{4:1065353216}" android:textAllCaps="true" />
+				<TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Luis Felipe de Oliveira" android:layout_weight="{4:1065353216}" android:textAllCaps="true" />
+			</LinearLayout>
+			<ImageView android:id="false" android:visibility="0" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="8dp" android:src="res/drawable-xxxhdpi-v4/ic_subramo_default.png" android:scaleType="3" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+			<ProgressBar android:id="false" android:visibility="1" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="8dp" android:indeterminate="true" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+		</RelativeLayout>
+	</LinearLayout>
+</android.support.v7.widget.CardView>

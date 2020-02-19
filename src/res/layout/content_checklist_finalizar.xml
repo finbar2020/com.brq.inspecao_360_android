@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<http://schemas.android.com/tools:RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+	<ScrollView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Ao enviar, o checklist será sincronizado com os nossos servidores e estará disponível para edição no portal web." />
+			<TextView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Ao finalizar, o checklist será enviado a %s e suas informações não poderão ser alteradas." />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Existe uma transmissão de checklist em andamento, deseja interrompe-la?" />
+			<TextView android:textStyle="0x1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Resumo:" />
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp">
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1066192077}">
+					<RelativeLayout android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2">
+						<com.brq.inspecao_360_android.common.view.CircularProgressBar android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp" app:progress="35" app:progressBarThickness="2dp" app:progressbarColor="ec6628" />
+						<TextView android:textSize="18sp" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="100%" android:layout_alignLeft="false" android:layout_alignTop="false" android:layout_alignRight="false" android:layout_alignBottom="false" />
+					</RelativeLayout>
+					<TextView android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="Completo" android:layout_below="false" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1073741824}">
+					<View android:background="cccccc" android:layout_width="1dp" android:layout_height="-2" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1066192077}">
+					<RelativeLayout android:gravity="0x11" android:id="false" android:layout_width="120dp" android:layout_height="60dp" android:layout_margin="10dp">
+						<TextView android:textSize="48sp" android:textStyle="0x1" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="99" android:layout_centerInParent="true" />
+					</RelativeLayout>
+					<TextView android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="Foto(s)" android:layout_below="false" />
+				</LinearLayout>
+			</LinearLayout>
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• Algumas imagens não foram encontradas:" />
+			<TextView android:textColor="d500" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="• É necessário que o checklist contenha imagens capturadas pelo aplicativo para que ele possa ser enviado." />
+		</LinearLayout>
+	</ScrollView>
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</http://schemas.android.com/tools:RelativeLayout>

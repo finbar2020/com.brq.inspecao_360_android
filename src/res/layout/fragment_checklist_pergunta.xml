@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textStyle="0x1" android:id="false" android:padding="4dp" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f12019b" />
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	</ScrollView>
+</RelativeLayout>

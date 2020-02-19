@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable-xxxhdpi-v4/ic_menu_perfil_circle.png" android:id="false" android:title="Perfil" />
+	<item android:icon="res/drawable-xxxhdpi-v4/ic_configuracao.png" android:id="false" android:title="Configurações" />
+	<item android:icon="res/drawable-xxxhdpi-v4/ic_menu_fale_conosco.png" android:id="false" android:title="Fale Conosco" />
+	<item android:icon="res/drawable-xxxhdpi-v4/ic_menu_sobre.png" android:id="false" android:title="Sobre" />
+	<item android:icon="res/drawable-xxxhdpi-v4/ic_menu_sair.png" android:id="false" android:title="Sair" />
+</menu>

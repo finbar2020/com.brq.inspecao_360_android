@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+	<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1091567616}" app:hintTextAppearance="@android:style/TextAppearance.Small">
+		<EditText android:textSize="15sp" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="DDD" android:ems="10" android:maxLength="2" android:inputType="0x2" />
+	</android.support.design.widget.TextInputLayout>
+	<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1086324736}" app:hintTextAppearance="@android:style/TextAppearance.Small">
+		<EditText android:textSize="15sp" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Telefone" android:ems="10" android:maxLength="9" android:inputType="0x3" />
+	</android.support.design.widget.TextInputLayout>
+	<Spinner android:layout_gravity="0x50" android:id="false" android:padding="0dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="2dp" android:layout_weight="{4:1088421888}" android:spinnerMode="1" style="@android:style/Widget.Holo.Light.Spinner" />
+</LinearLayout>

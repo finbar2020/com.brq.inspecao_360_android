@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1" android:layout_margin="8dp" card_view:cardCornerRadius="0dp" card_view:cardElevation="2dp" card_view:contentPaddingBottom="16dp" card_view:contentPaddingLeft="16dp" card_view:contentPaddingRight="16dp" card_view:contentPaddingTop="16dp">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Nº do Pedido" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Nº da Apólice" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Seguradora" style="resourceId:0x7f120154" />
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Sucursal/Filial" style="resourceId:0x7f120154" />
+		</android.support.design.widget.TextInputLayout>
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Tipo Inspeção" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Valor do Risco" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Motivo Inspeção" style="resourceId:0x7f120154" />
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Ramo" style="resourceId:0x7f120154" />
+		</android.support.design.widget.TextInputLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Data Solicitação" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Data Limite" style="resourceId:0x7f120154" />
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Produto" style="resourceId:0x7f120154" />
+		</android.support.design.widget.TextInputLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<ProgressBar android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+		</LinearLayout>
+		<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<EditText android:enabled="false" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:text=" " android:hint="Observação" style="resourceId:0x7f120154" />
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+</android.support.v7.widget.CardView>

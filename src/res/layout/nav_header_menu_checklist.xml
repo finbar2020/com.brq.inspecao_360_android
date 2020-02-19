@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="081a4" android:paddingLeft="0dp" android:paddingTop="24dp" android:paddingRight="0dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-2">
+	<include android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" layout="res/layout/content_cabecalho_status_inspecao.xml" />
+</RelativeLayout>
